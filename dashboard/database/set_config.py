@@ -1,7 +1,7 @@
 
 from configparser import ConfigParser
 
-Config_loc = "D:\Learn\Python\\repos\Dashboard_home\dashboard\database\config.ini"
+Config_loc = "dashboard\database\config.ini"
 
 def set_config(filename=Config_loc, section='postgresql'):
     # create a parser
